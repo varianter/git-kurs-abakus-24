@@ -1,0 +1,1 @@
+. ..\utils\create-exercise-repo.ps1
