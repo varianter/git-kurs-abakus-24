@@ -67,14 +67,14 @@ clear-local-gpgsigning() {
 }
 
 pre-setup () {
-    kata="$(basename $(pwd))"   # kata: name of the exercise which is respective folder name
+    task="$(basename $(pwd))"   # task: name of the exercise which is respective folder name
     create-exercise-repo
     config-local-username
     config-local-gpgsigning
 }
 
 pre-setup-with-remote () {
-    kata="$(basename $(pwd))"   # kata: name of the exercise which is respective folder name
+    task="$(basename $(pwd))"   # task: name of the exercise which is respective folder name
     create-bare-remote-repo 
     clone-remote-to-exercise
     config-local-username

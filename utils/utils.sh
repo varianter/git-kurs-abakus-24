@@ -1,6 +1,6 @@
 #!/bin/bash
-# This is the entry point for shell utilities in git katas.
-# The purpose of this file is to enable setup scripts in each of the katas to have a common set of utilities 
+# This is the entry point for shell utilities in git tasks.
+# The purpose of this file is to enable setup scripts in each of the tasks to have a common set of utilities 
 # spread over multiple files in the utils folder.
 
 # First, guard against Error 40 if user does not invoke using source:
