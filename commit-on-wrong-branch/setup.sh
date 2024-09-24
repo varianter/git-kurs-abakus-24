@@ -12,7 +12,7 @@ touch file.txt
 git add file.txt
 git commit -m "Initial commit"
 
-echo "This is a relevant fact" > file.txt
+echo "I Norge har Variant kontorer i Trondheim, Oslo og Bergen" > file.txt
 
 git add file.txt
 
@@ -20,7 +20,7 @@ git commit -m "add relevant fact"
 
 git checkout -b quickfix HEAD~1
 
-echo "This is a very quick fix" > fix.txt
+echo "Her må noe fikses, kjapt" > fix.txt
 
 git add fix.txt
 

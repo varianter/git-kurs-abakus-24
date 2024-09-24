@@ -9,18 +9,18 @@ create-exercise-repo
 touch greeting.txt
 git add greeting.txt
 git commit -m "Add file greeting.txt"
-echo "hello" > greeting.txt
+echo "Heisann" > greeting.txt
 git add greeting.txt
 git commit -m "Add content to greeting.txt"
 
 # Create a file on branch1
 git checkout -b $task-branch1
-echo "This is a relevant fact" > file.txt
+echo "Variant er 6 år" > file.txt
 git add file.txt
 git commit -m "add relevant fact"
 
 
 git checkout main
-echo "This is an indispensable truth!" > file.txt
+echo "Variant elsker å lære bort!" > file.txt
 git add file.txt
 git commit -m "add indispensable truth!"
