@@ -13,7 +13,7 @@ Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
 ## Oppgaven
 1. Utforsk repoet og historikken slik at du vet hva som har skjedd.
 2. Bruk `git rebase --interactive v0.0` for å la deg redigere "oppskriften" for hele feature-utviklingen.
-3. Rydd opp i historikken slik at den faktisk gir mening. Prøv å bruke så mange av rebase-"funksjonene" (f.eks. reword, squash, fixup, drop) som mulig. Du bestemmer selv om du vil omskrive hele greia i ett forsøk, eller om du vil gjøre noen endringer først, o deretter kjøre en ny `git rebase --interactive v0.0` for å fortsette oppryddingen.
+3. Rydd opp i historikken slik at den faktisk gir mening. Prøv å bruke så mange av rebase-"funksjonene" (f.eks. reword, squash, fixup, drop) som mulig. Du bestemmer selv om du vil omskrive hele greia i ett forsøk, eller om du vil gjøre noen endringer først, og deretter kjøre en ny `git rebase --interactive v0.0` for å fortsette oppryddingen.
 
 ## Nyttige kommandoer
 - `ls -l`                 # list filer
