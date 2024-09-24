@@ -7,10 +7,11 @@ Oppgavene i dette repoet er ment som introduksjon og trening for å bruke git fr
 
 >*Disclaimer: oppgavene er hentet fra [git-katas](https://github.com/eficode-academy/git-katas), og modifisert til dette kurset og til å være på norsk. Dersom du trenger mer utfordring enn oppgavene Variant har inkludert her, så anbefaler jeg å sjekke ut lenken, det ligger enda flere oppgaver der!*
 
-## Oppsett lokalt på maskinen
+## Før du begynner: 
 Klon repoet med `git clone` enten med HTTPS eller SSH (hvis du har satt opp SSH)
 
-Oppgavene er delt inn i mapper, og inni hver mappe ligger en `README.md`-fil som inneholder steg-for-steg. Vi anbefaler å ha `README.md`-filen oppe ved siden av når du prøver å løse oppgavene. Der ligger også nyttige kommandoer som kan hjelpe deg på vei for hver oppgave. 
+### Hvordan gjennomføre oppgaver
+Oppgavene er delt inn i mapper, og inni hver mappe ligger en `README.md`-fil som inneholder steg-for-steg. For hver oppgave vil du, i terminalen, navigere til den gitte oppgavemappen, før du følger instruksjonene i den tilhørende `README.md`-filen. Vi anbefaler å ha `README.md`-filen oppe ved siden av når du prøver å løse oppgavene. Der ligger også nyttige kommandoer som kan hjelpe deg på vei for hver oppgave. 
 
 ### Har du konfigurert git? 
 Hvis du er usikker, eller vet at du ikke har gjort det, så kan du sjekke ut [git-configuration](./git-configuration/README.md)
