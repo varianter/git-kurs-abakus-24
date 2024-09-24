@@ -4,7 +4,7 @@ Man lager ofte veldig mange commits mens man jobber på et prosjekt, og noen gan
 Du kan bruke `git log -p`eller `git show`for å inspisere innholdet i en commit og filendringer som ble lagt til en commit.
 
 ## Oppsett
-Kjør `source.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
+Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
 
 ## Oppgaven
 1. Hva forteller `git status` oss?

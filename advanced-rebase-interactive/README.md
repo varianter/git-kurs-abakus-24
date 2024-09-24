@@ -8,7 +8,7 @@ For å få til dette skal vi bruke `git rebase --interactive`, kombinert med at 
 I denne oppgaven er det ingen spesifikke steg å følge, og heller ikke én spesifikk løsning på problemet. Prøv deg frem og se hvor langt du kommer!
 
 ## Oppsett
-Kjør `source.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
+Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
 
 ## Oppgaven
 1. Utforsk repoet og historikken slik at du vet hva som har skjedd.

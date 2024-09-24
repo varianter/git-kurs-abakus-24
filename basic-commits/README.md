@@ -7,7 +7,7 @@ Hvis du ikke har konfigurert git, så kan du se nederst i denne filen.
 
 ## Oppsett
 
-Kjør `source.sh`i terminalen (eller `.\setup.ps1` i PowerShell) 
+Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell) 
 
 ## Oppgaven
 1. Bruk `git status` for å se hvilken branch du er på.

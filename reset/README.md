@@ -6,7 +6,7 @@ Vi kan manipulere git-historikken ganske mye. Men, manipuleringen bør kun skje 
 `Reset`er en risikabel kommando å tulle med, hvis du ikke vet hva den gjør. I denne oppgaven skal vi gå gjennom de tre forskjellige modusene for `reset`.
 
 ## Oppsett
-Kjør `source.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
+Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
 
 ## Oppgaven
 

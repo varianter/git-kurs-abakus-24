@@ -3,7 +3,7 @@
 I denne oppgaven vil dere gjennomføre en fast forward merge.
 
 ## Oppsett
-Kjør `source.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
+Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
 
 ## Oppgaven
 Du er igjen i din egen branch, denne gangen skal vi gjøre litt sjonglering med branchene for å vise hvor enkelt branching er i Git.

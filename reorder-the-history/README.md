@@ -5,7 +5,7 @@ Commitsene i dette repoet ble laget av noen som ikke helt fulgte med i timen. De
 Dette burde fikses!
 
 ## Oppsett
-Kjør `source.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
+Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
 
 ## Oppgaven
 

@@ -2,7 +2,7 @@
 I denne oppgaven skal dere lære hva `git revert`gjør, og hvorfor det er en nyttig kommando når man har gjort en feil en plass i git-historikken.
 
 ## Oppsett
-Kjør `source.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
+Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
 
 ## Oppgaven
 I denne oppgaven har det sneket seg inn noen endringer som vi ønsker å fjerne. Historikken vår er offentlig, så vi kan ikke bare endre den. I stedet må vi bruke revert for å fjerne de uønskede endringene på en trygg måte.

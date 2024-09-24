@@ -3,7 +3,7 @@
 I denne oppgaven skal dere utforske branching i git. 
 
 ## Oppsett
-Kjør `source.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
+Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
 
 ## Oppgaven
 1. Bruk `git branch` for å se de to branchene som er relevante for denne øvelsen.

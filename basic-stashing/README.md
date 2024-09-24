@@ -2,7 +2,7 @@
 
 
 ## Oppsett
-Kjør `source.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
+Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
 
 ## Oppgaven
 Du jobber med prosjektet ditt. Du har staget noe arbeid og har også noe ustaget arbeid.

@@ -13,7 +13,7 @@ En fil kan både ha endringer i **working directory** og **staging-området** sa
 I oppgaven kommer vi også til å jobbe med `git restore`for å gjenopprette staged endringer av en fil.
 
 ## Oppsett
-Kjør `source.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
+Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
 
 ## Oppgaven
 Du bor i ditt eget repository. Det finnes en fil kalt `file.txt`.
