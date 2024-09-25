@@ -5,6 +5,8 @@ Oppgavene i dette repoet er ment som introduksjon og trening for å bruke git fr
 
 **👋Sitter du fast er det bare å spørre oss som er tilstede, vi hjelper gjerne👋**
 
+PS. [Cheatsheet](./CHEATSHEET.md) 
+
 >*Disclaimer: oppgavene er hentet fra [git-katas](https://github.com/eficode-academy/git-katas), og modifisert til dette kurset og til å være på norsk. Dersom du trenger mer utfordring enn oppgavene Variant har inkludert her, så anbefaler jeg å sjekke ut lenken, det ligger enda flere oppgaver der!*
 
 ## Før du begynner: 
