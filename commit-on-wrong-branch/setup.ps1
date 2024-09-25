@@ -1,18 +1,30 @@
 . ..\utils\create-exercise-repo.ps1
 
-Set-Content -Value "" -Path file.txt
+Set-Content -Value "Some coode" -Path myapp.txt
+Add-Content -Value "Some other line of code" -Path myapp.txt
+Add-Content -Value "Another line of code" -Path myapp.txt
 
-git add file.txt
+git add myapp.txt
 git commit -m "Initial commit"
 
-Set-Content -Value "This is a relevant fact" -Path file.txt
+git checkout -b new-feature
 
-git add file.txt
-git commit -m "add relevant fact"
+Add-Content -Value "First part of new awesome feature" -Path myapp.txt
 
-git checkout -b quickfix HEAD~1
+git add myapp.txt
+git commit -m "Implement first part of feature"
 
-Set-Content -Value "This is a very quick fix" -Path fix.txt
+git checkout main
 
-git add fix.txt
-git commit -m "Make quick fix - should be moved to main"
+Set-Content -Value "Some coode" -Path myapp.txt
+Add-Content -Value "Some other line of code" -Path myapp.txt
+Add-Content -Value "Another line of code" -Path myapp.txt
+
+git add myapp.txt
+git commit -m "Fix bug"
+
+Add-Content -Value "Second part of new feature" -Path myapp.txt
+
+git add myapp.txt
+git commit -m "Implement second part of feature"
+

@@ -3,26 +3,27 @@
 # Include utils
 source ../utils/utils.sh
 
-task="task-commit-on-wrong-branch"
+create-exercise-repo
 
-create-exercise-repo 
+echo "Some coode" > myapp.txt
+echo "Some other line of code" >> myapp.txt
+echo "Another line of code" >> myapp.txt
+git add myapp.txt
+git commit -m"Initial commit"
 
-touch file.txt
+git checkout -b new-feature
+echo "First part of new awesome feature" >> myapp.txt
+git add myapp.txt
+git commit -m "Implement first part of feature"
 
-git add file.txt
-git commit -m "Initial commit"
+git checkout main
+echo "Some code" > myapp.txt
+echo "Some other line of code" >> myapp.txt
+echo "Another line of code" >> myapp.txt
+git add myapp.txt
+git commit -m "Fix bug"
 
-echo "I Norge har Variant kontorer i Trondheim, Oslo og Bergen" > file.txt
-
-git add file.txt
-
-git commit -m "add relevant fact"
-
-git checkout -b quickfix HEAD~1
-
-echo "Her må noe fikses, kjapt" > fix.txt
-
-git add fix.txt
-
-git commit -m "Make quick fix - should be moved to main"
+echo "Second part of new feature" >> myapp.txt
+git add myapp.txt
+git commit -m "Implement second part of feature"
 
