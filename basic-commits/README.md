@@ -25,7 +25,6 @@ Kjør `source setup.sh`i terminalen (eller `.\setup.ps1` i PowerShell)
 13. Endre filen igjen (f.eks. `echo 'Hello back!' >> file.txt`).
 14. Gjør en `commit`.
 15. Hvordan ser `status` ut nå? Hvordan ser `log` ut?
-16. `add` og `commit` den nyeste endringen
 
 ## Nyttige kommandoer
 - `git add`
